@@ -58,7 +58,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="/Tisha_Movaliya.pdf"
+            href={process.env.PUBLIC_URL + "/Tisha_Movaliya.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className="btn secondary"
